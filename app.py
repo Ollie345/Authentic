@@ -41,7 +41,7 @@ class SignupForm(FlaskForm):
         min=4, max=20)], render_kw={"placeholder": "Username"})
     password = PasswordField(validators=[InputRequired(), Length(
         min=4, max=20)], render_kw={"placeholder": "Password"})
-    submit = SubmitField("Signup")
+    submit = SubmitField("Create account")
 
 
 def validate_username(self, username):

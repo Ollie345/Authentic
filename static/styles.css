@@ -32,15 +32,20 @@ form {
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 form input[type="text"], form input[type="password"] {
-    width: 100%;
+    width: 93%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 form input[type="submit"] {
@@ -49,7 +54,9 @@ form input[type="submit"] {
     border: none;
     background-color: #007BFF;
     color: #fff;
+    border-radius: 5px;
     cursor: pointer;
+    
 }
 
 form input[type="submit"]:hover {
