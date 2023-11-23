@@ -29,7 +29,7 @@ pip install flask flask_sqlalchemy flask_login flask_wtf flask-bcrypt
 2. Navigate to the project directory:
 
     ```bash
-    cd Authentic
+    cd Authentic-App
     ```
 
 3. Run the application:
