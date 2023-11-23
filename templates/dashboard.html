@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Authentic App</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello you are logged in</h1>
-    <p>Do you want to logout? <a href="{{url_for('logout')}}">Click here</a><p>
+    <h1><a href ="{{url_for('home')}}">Authentic App</a></h1>    
+    <h2>Congratulations 🎊 You have completed all tasks and you are now logged in!</h2>
+    <p>Anytime you want to logout just click <a href="{{url_for('logout')}}"> Japa🏃</a><p>
 </body>
 </html>

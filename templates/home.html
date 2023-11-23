@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-    <h1>Login Authentication Flask App</h1>
-    <a href="{{url_for('login')}}">Login here</a> <br>
-    <a href="{{url_for('signup')}}">signup here</a>
+    <h1><a href ="{{url_for('home')}}">Authentic App</a></h1>
+    <h3>Hey there stranger I would need you to complete the tasks below 👇:</h3>
+        <p>➡ Create an account by clicking <a href="{{url_for('signup')}}">Create account📝</a><p>
+        <p>➡ sign in to the account you just created by clicking <a href="{{url_for('login')}}">Login🔐</a></p>
+
 </body>
 </html>
