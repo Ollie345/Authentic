@@ -1,4 +1,4 @@
-﻿# Authentic App
+# Authentic App
 
 This is a simple user authentication system built with Flask, utilizing HTML templates and form validation. The system includes features such as user registration, login, logout, and a basic dashboard.
 
@@ -44,6 +44,7 @@ pip install flask flask_sqlalchemy flask_login flask_wtf flask-bcrypt
 
 - **app.py**: The main Flask application file containing the routes and configurations.
 - **templates**: This directory contains HTML templates for the home page, login page, signup page, and dashboard.
+- **static**: This directory contains css files for the home page, login page, signup page, and dashboard.
 - **database.db**: SQLite database file to store user information.
 
 ## Configuration
